@@ -141,18 +141,35 @@ section{
 
 /* Contact */
 .contact{
-    background:var(--primary);
-    color:white;
+    background:#d1fae5; /* Light Green */
+    color:#0A2647;
 }
 
 .contact input,
 .contact textarea{
-    border:none;
+    border:1px solid #38D39F;
+    border-radius:10px;
+    padding:12px;
+}
+
+.contact input:focus,
+.contact textarea:focus{
+    border-color:#2ECC71;
+    box-shadow:0 0 10px rgba(56,211,159,.3);
+    outline:none;
 }
 
 .contact button{
-    background:var(--secondary);
+    background:#38D39F;
+    color:white;
     border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+.contact button:hover{
+    background:#2ECC71;
 }
 
 /* Footer */

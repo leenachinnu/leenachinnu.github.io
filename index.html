@@ -101,80 +101,52 @@ section{
 
 /* About */
 .about{
-    background:#d1fae5; /* Light Green */
+    background:var(--light);
 }
 
 .profile-img{
     width:300px;
     border-radius:20px;
-    border:4px solid #38D39F;
-    box-shadow:0 10px 30px rgba(56,211,159,.3);
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
 /* Skills */
 .skill-box{
-    background:#d1fae5; /* Light Green */
+    background:white;
     padding:25px;
     text-align:center;
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0,0,0,.1);
     transition:.3s;
-    color:#0A2647;
-}
-
-.skill-box:hover{
-    background:#a7f3d0;
-    transform:translateY(-10px);
-}
+}  light green
 
 /* Projects */
 .project-card{
-    background:#d1fae5; /* Light Green */
-    border:1px solid #38D39F;
+    border:none;
     border-radius:20px;
     overflow:hidden;
-    box-shadow:0 5px 20px rgba(56,211,159,.2);
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
     transition:.3s;
-    color:#0A2647;
 }
 
 .project-card:hover{
     transform:translateY(-10px);
-    background:#a7f3d0;
-    box-shadow:0 10px 30px rgba(56,211,159,.35);
 }
 
 /* Contact */
 .contact{
-    background:#d1fae5; /* Light Green */
-    color:#0A2647;
+    background:var(--primary);
+    color:white;
 }
 
 .contact input,
 .contact textarea{
-    border:1px solid #38D39F;
-    border-radius:10px;
-    padding:12px;
-}
-
-.contact input:focus,
-.contact textarea:focus{
-    border-color:#2ECC71;
-    box-shadow:0 0 10px rgba(56,211,159,.3);
-    outline:none;
+    border:none;
 }
 
 .contact button{
-    background:#38D39F;
-    color:white;
+    background:var(--secondary);
     border:none;
-    padding:12px 25px;
-    border-radius:30px;
-    font-weight:600;
-}
-
-.contact button:hover{
-    background:#2ECC71;
 }
 
 /* Footer */
